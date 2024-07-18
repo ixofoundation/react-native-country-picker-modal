@@ -13,11 +13,6 @@
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | <img  src="https://media.giphy.com/media/cKmlP4Ue5pUrH0DQLi/giphy.gif" width="200" height="400"/> | <img  src="https://media.giphy.com/media/Q7SDti4eARGx2CQIGE/giphy.gif" width="200" height="400"/> | <img  src="https://media.giphy.com/media/gKl3z3c7sVVL7KSSh8/giphy.gif" width="250" height="400"/> |
 
-## Demo
-
-- 🎉[ GO TO WEB DEMO ](http://xcarpentier.github.io/react-native-country-picker-modal/) 🎉
-- [snack example](https://snack.expo.io/@xcarpentier/bossy-marshmallows)
-
 ## Installation
 
 ```bash
@@ -41,9 +36,8 @@ const styles = StyleSheet.create({
 export default function App() {
   const [countryCode, setCountryCode] = useState<CountryCode>('FR')
   const [country, setCountry] = useState<Country>(null)
-  const [withCountryNameButton, setWithCountryNameButton] = useState<boolean>(
-    false,
-  )
+  const [withCountryNameButton, setWithCountryNameButton] =
+    useState<boolean>(false)
   const [withFlag, setWithFlag] = useState<boolean>(true)
   const [withEmoji, setWithEmoji] = useState<boolean>(true)
   const [withFilter, setWithFilter] = useState<boolean>(true)
